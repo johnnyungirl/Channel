@@ -1,0 +1,19 @@
+Go hay còn được biết đến như Golang là một ngôn ngữ lập trình mã nguồn mở (open source), dạng biên dịch (compiled) kiểu tĩnh (statically type) được phát triển bởi Google.
+
+Mục đích chính của Golang là hỗ trợ phát triển các web apps có tính sẵn sàng cao đồng thời giúp việc mở rộng nhanh và dễ dàng hơn.
+
+Golang có thể ứng dụng trong nhiều lĩnh vực như trong phát triển Web Server, phát triển ứng dụng mobile hay trong các hệ thống microservice hay ERP.
+
+Golang có các ưu điểm so với các ngôn ngữ khác như:
+
+Golang là một ngôn ngữ biên dịch, mã nguồn sẽ được biên dịch sang mã nhị phân (binary), đây là phần còn thiếu trong Javascript - NodeJs.
+Với Golang, chúng ta sẽ không cần cài đặt các dependencies từ server bởi vì Go đã liên kết tất cả các mô-đun cũng như các dependenciesthành một file nhị phân.
+Golang sử dụng các goroutine riêng biệt giúp tiết kiệm bộ nhớ và nâng cao hiệu năng cho ứng dụng.
+2. Cài đặt
+Golang hỗ trợ cả cả ba nền tảng Mac, Windows, Linux. Bạn có thể tải bộ cài đặt tương ứng tại đây
+
+Windows
+Trên Windows sau khi tải tập tin cài đặt Go dành cho Windows về máy bạn chỉ cần click đúp vào tập tin và tiến hành cài đặt Go theo hướng dẫn. Theo mặc định máy tính sẽ cài đặt Go trong thư mục c:\Go, thư mục này còn được gọi là thư muc $GO_ROOT. Ngoài ra, trình cài đặt cũng sẽ tự động thêm thư mục c:\Go\bin vào biến môi trường trên máy. Thư mục này còn được gọi là thư mục $GO_PATH
+
+MacOS
+Tương tự như Windows thì bạn cũng có thể cài đặt Golang sử dụng tập tin cài đặt với phần mở rộng.pkg dành cho các máy tính chạy hệ điều hành Mac OSX. Golang sẽ được cài đặt tại /usr/local/go và tự động thêm thư mục /usr/local/go vào biến môi trường PATH
